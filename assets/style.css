@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  /* "*" fügt die Styles zu allen Elementen dazu */
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: black;
+  font-family: "Oswald", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 4rem;
+  font-family: "Bebas Neue";
+  font-size: 3em;
+  letter-spacing: 0.5px;
+}
+
+/*========================================NAVIGATION======================================*/
+
+body {
+  background-color: rgb(181, 153, 153);
+}
+
+nav ul {
+  font-weight: 700;
+  display: flex;
+  list-style: none;
+  gap: 20%;
+  font-size: 1.4em;
+  align-items: center;
+}
+
+nav ul li a {
+  transition: 0.3s;
+  padding-bottom: 10px;
+  border-bottom: 3px solid transparent;
+  will-change: auto;
+}
+
+nav ul li a:hover {
+  padding-bottom: 10px;
+  border-bottom: 3px solid black;
+}
+
+nav {
+  padding-top: 1%;
+  padding-bottom: 0.5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: space-around;
+  background-color: brown;
+  box-shadow: 5px 10px 10px 5px rgb(65, 62, 62);
+}
+
+nav img {
+  height: 75px;
+}
+
+/*=============================================================MAIN==========================*/
+
+main h2 {
+  padding-top: 5%;
+  padding-left: 20%;
+  margin-left: 10%;
+  font-size: 2em;
+  border-bottom: 2px solid black;
+  display: inline-block;
+}
+
+main div p {
+  border: 3px solid black;
+  margin-top: 2%;
+  padding: 1%;
+  font-weight: 700;
+}
+
+main div {
+  padding-top: 1%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+main h3 {
+  padding-top: 5%;
+  padding-left: 20%;
+  margin-left: 10%;
+  font-size: 2em;
+  border-bottom: 2px solid black;
+  display: inline-block;
+}
+
+main div h3 + p {
+  border: 3px solid black;
+  padding: 1%;
+  margin-top: 3%;
+  margin-left: -200px;
+  font-weight: 700;
+  margin-right: 200px;
+  width: 60%;
+}
+
+h3 + div {
+  display: flex;
+}
+
+a > button {
+  background-color: brown;
+  margin-left: 100%;
+  box-shadow: 5px 10px 10px 5px rgb(65, 62, 62);
+  cursor: pointer;
+  font-size: 1.4em;
+  font-weight: 600;
+  padding: 10%;
+  transition: ease-in-out, 0.3s;
+  margin-top: 15%;
+}
+
+a > button:hover {
+  background-color: rgb(223, 83, 28);
+  transform: rotate(10deg);
+}
+
+/*==================================COMMANDS======================================================*/
+
+.gitRule {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gitRules {
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-bottom: 5%;
+}
+
+/*===========================================INFOS========================================*/
+
+.info {
+  margin-bottom: 5%;
+}
